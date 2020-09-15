@@ -20,4 +20,4 @@ echo "    }" >> ~/.bashrc
 echo 'export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$(git_branch)\$ "' >> ~/.bashrc
 
 # in the terminal, type
-# source ~/.bashrc
+# /bin/bash -c source ~/.bashrc

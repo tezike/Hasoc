@@ -10,6 +10,9 @@ _tmp*
 tmp*
 tags
 
+#folders
+nbs/models/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

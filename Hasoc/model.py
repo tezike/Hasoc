@@ -14,7 +14,7 @@ class HasocModel(nn.Module):
         _config = transformers.BertConfig.from_pretrained(model_name)
         self.model = transformers.BertModel.from_pretrained(model_name, config=_config)
         self.tok = transformers.BertTokenizer.from_pretrained(
-            pretrained_model_name_or_path=MODEL_NAME,
+            pretrained_model_name_or_path=model_name,
             do_lower_case=True,
             )
         out_size = getattr(self.model, 'pooler').dense.out_features
