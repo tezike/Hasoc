@@ -6,7 +6,7 @@ git config --global user.name $USERNAME
 git init
 git remote rm origin
 git remote add origin https://$USERNAME:$PASSWORD@github.com/$USERNAME/${PWD##*/}.git
-git pull origin master --allow-unrelated-histories
+# git pull origin master --allow-unrelated-histories
 
 # Make jupyter terminal show branch name
 # git_branch() {

@@ -2,10 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"MODEL_NAME": "main.ipynb",
+index = {"SEED": "main.ipynb",
+         "MODEL_NAME": "main.ipynb",
          "MAX_SEQ_LEN": "main.ipynb",
          "device": "main.ipynb",
          "df": "main.ipynb",
+         "y": "main.ipynb",
+         "kf": "main.ipynb",
          "df.tweet_id": "main.ipynb",
          "bert_tokenizer": "main.ipynb",
          "pad": "main.ipynb",
@@ -18,6 +21,7 @@ index = {"MODEL_NAME": "main.ipynb",
          "learn": "main.ipynb",
          "lr": "main.ipynb",
          "HasocModel": "model.ipynb",
+         "seed_everything": "utils.ipynb",
          "bert_cls_splitter": "utils.ipynb",
          "HFTokenizer": "utils.ipynb",
          "Add_Special_Cls": "utils.ipynb"}
