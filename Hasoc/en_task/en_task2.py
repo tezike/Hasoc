@@ -81,12 +81,12 @@ scheduler = get_linear_schedule_with_warmup(optimizer=optimizer,
                                                 num_training_steps=num_train_steps-20)
 
 # Cell
-fit = engine.BertFitter(modeller, (train_dl, valid_dl), optimizer, nn.CrossEntropyLoss(), partial(f1_score, average='macro'), config.DEVICE, scheduler=scheduler)
+# fit = engine.BertFitter(modeller, (train_dl, valid_dl), optimizer, nn.CrossEntropyLoss(), partial(f1_score, average='macro'), config.DEVICE, scheduler=scheduler, log_file='en_task2_log.txt')
+fit = engine.BertFitter(modeller, (train_dl, valid_dl), optimizer, utils.LabelSmoothingCrossEntropy(), partial(f1_score, average='macro'), config.DEVICE, scheduler=scheduler, log_file='en_task2_log.txt')
 
 # Cell
 NUM_EPOCHS = 6
-# fit.fit(NUM_EPOCHS, model_path=os.path.join(config.MODEL_PATH/'en_task2.pth'))
-fit.fit(NUM_EPOCHS, model_path=None)
+fit.fit(NUM_EPOCHS, model_path=os.path.join(config.MODEL_PATH/'en_task2.pth'))
 
 # Cell
 test_df = pd.read_csv(config.DATA_PATH/'en_task_a/english_test.csv')

@@ -42,7 +42,8 @@ index = {"create_path": "utils.utils.ipynb",
          "BertFitter": "utils.engine.ipynb",
          "get_preds": "utils.engine.ipynb",
          "seed_everything": "utils.utils.ipynb",
-         "create_loader": "utils.utils.ipynb"}
+         "create_loader": "utils.utils.ipynb",
+         "LabelSmoothingCrossEntropy": "utils.utils.ipynb"}
 
 modules = ["config.py",
            "create_folds.py",

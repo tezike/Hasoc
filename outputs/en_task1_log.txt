@@ -1,0 +1,78 @@
+Wed Sep 23 04:38:16 2020
+Using device: cuda
+--------------------------------------------------
+Running Epoch #1 🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.003795036385136266
+Training time: 91.36 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.006759731059378766
+Saving model weights at ../weights/en_task1.pth
+Evaluation time: 0:1:44
+
+--------------------------------------------------
+Running Epoch #2 🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0026558293126577766
+Training time: 94.87 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.013181212086242323
+Saving model weights at ../weights/en_task1.pth
+Evaluation time: 0:1:47
+
+--------------------------------------------------
+Running Epoch #3 🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0014539487089318564
+Training time: 65.12 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.013928606860530459
+Evaluation time: 0:1:10
+
+--------------------------------------------------
+Running Epoch #4 🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0011391167100201275
+Training time: 51.57 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.013634242861789119
+Evaluation time: 0:0:56
+
+--------------------------------------------------
+Running Epoch #5 🔥🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0008917940446077124
+Training time: 50.9 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.01229389555541728
+Saving model weights at ../weights/en_task1.pth
+Evaluation time: 0:0:59
+
+--------------------------------------------------
+Running Epoch #6 🔥🔥🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0007156838947660242
+Training time: 52.45 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.012107135803204626
+Saving model weights at ../weights/en_task1.pth
+Evaluation time: 0:1:1
+
