@@ -13,6 +13,8 @@ tags
 #folders
 nbs/model*
 data/
+weights/
+outputs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

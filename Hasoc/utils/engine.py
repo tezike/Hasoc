@@ -172,7 +172,7 @@ class BertFitter(Fitter):
         mb.update_graph(np.array(graphs), np.array(x_bounds), np.array(y_bounds))
 
 # Cell
-def get_preds(test_ds, test_dl, model,device=None):
+def get_preds(test_ds, test_dl, model,device=None, ensemble_proba=False):
     if device is None:
         device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     preds = np.zeros(len(test_ds))
@@ -180,6 +180,9 @@ def get_preds(test_ds, test_dl, model,device=None):
     with torch.no_grad():
         for batch in progress_bar(test_dl):
             out = model(**batch)
-            out = out.softmax(dim=-1).argmax(dim=-1)
+            if not ensemble_proba:
+                out = out.softmax(dim=-1).argmax(dim=-1)
+            else:
+                out = out.softmax(dim=-1)
             test_preds.append(out.cpu().numpy())
     return np.concatenate(test_preds)
