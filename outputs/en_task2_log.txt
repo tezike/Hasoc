@@ -1,0 +1,80 @@
+Wed Sep 23 21:20:17 2020
+Using device: cuda
+--------------------------------------------------
+Running Epoch #1 🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.00417265095158086
+Training time: 172.86 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.01816217189139508
+Saving model weights at ../weights/en_task2_4.pth
+Evaluation time: 0:3:3
+
+--------------------------------------------------
+Running Epoch #2 🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.003437208324174306
+Training time: 172.68 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.038132344518867
+Saving model weights at ../weights/en_task2_4.pth
+Evaluation time: 0:3:3
+
+--------------------------------------------------
+Running Epoch #3 🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.002147688375866224
+Training time: 172.54 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.04102553929196903
+Saving model weights at ../weights/en_task2_4.pth
+Evaluation time: 0:3:3
+
+--------------------------------------------------
+Running Epoch #4 🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.002044267472571252
+Training time: 172.34 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.040875837475540064
+Saving model weights at ../weights/en_task2_4.pth
+Evaluation time: 0:3:3
+
+--------------------------------------------------
+Running Epoch #5 🔥🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0019977152257873074
+Training time: 172.6 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.040872652330509664
+Saving model weights at ../weights/en_task2_4.pth
+Evaluation time: 0:3:3
+
+--------------------------------------------------
+Running Epoch #6 🔥🔥🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.002003858514040063
+Training time: 172.48 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.04087258456146646
+Saving model weights at ../weights/en_task2_4.pth
+Evaluation time: 0:3:3
+

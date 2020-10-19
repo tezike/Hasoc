@@ -1,0 +1,80 @@
+Wed Sep 23 20:43:33 2020
+Using device: cuda
+--------------------------------------------------
+Running Epoch #1 🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.003691818444959579
+Training time: 173.4 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.008937609956619587
+Saving model weights at ../weights/en_task1_4.pth
+Evaluation time: 0:3:11
+
+--------------------------------------------------
+Running Epoch #2 🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0029861796689305375
+Training time: 144.01 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.014508934213449752
+Saving model weights at ../weights/en_task1_4.pth
+Evaluation time: 0:2:37
+
+--------------------------------------------------
+Running Epoch #3 🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.00150887645086179
+Training time: 92.55 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.014789253776782701
+Saving model weights at ../weights/en_task1_4.pth
+Evaluation time: 0:1:44
+
+--------------------------------------------------
+Running Epoch #4 🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0011641775646171338
+Training time: 92.28 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.014932483659525307
+Saving model weights at ../weights/en_task1_4.pth
+Evaluation time: 0:1:44
+
+--------------------------------------------------
+Running Epoch #5 🔥🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0009615763867233087
+Training time: 92.02 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.014385718939699898
+Saving model weights at ../weights/en_task1_4.pth
+Evaluation time: 0:1:44
+
+--------------------------------------------------
+Running Epoch #6 🔥🔥🔥🔥🔥🔥
+-------------------------------------------------- 
+
+TRAINING...
+Batch: 0, Train loss: 0.0007629941597041107
+Training time: 92.41 secs 
+
+EVALUATING...
+Batch: 0, Valid loss: 0.014249489228416802
+Saving model weights at ../weights/en_task1_4.pth
+Evaluation time: 0:1:44
+
